@@ -11,7 +11,10 @@
   <b>Faris Iftikhar Alfarisi</b>  
 </p>
 <p align="center">
-<a href="https://www.instagram.com/frs.alfrs_/"><img src="https://img.shields.io/badge/Instagram-frs.alfrs_ logo=instagram" alt="Instagram"></a>
+<a href="https://www.instagram.com/frs.alfrs_/">
+    <img src="https://img.shields.io/badge/Instagram-frs.alfrs_?logo=instagram&style=for-the-badge" alt="Instagram">
+</a>
+
 <a href="mailto:faris.workingspace@gmail.com"><img src="https://img.shields.io/badge/Email-faris.workingspace@gmail.com -blue?logo=gmail" alt="Email"></a>
 <a href="mailto:faris.10122050@mahasiswa.unikom.ac.id "><img src="https://img.shields.io/badge/Email-faris.10122050@mahasiswa.unikom.ac.id-blue?logo=gmail" alt="Email"></a>
 </p>
