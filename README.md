@@ -1,5 +1,5 @@
 <p align="center">
-  <h3>Satellite Image Segmentation Using Unsupervised Learning for Land Cover Analysis in Soreang with Spatial–Spectral Feature Optimization </h3>
+  <h3 align="center">Satellite Image Segmentation Using Unsupervised Learning for Land Cover Analysis in Soreang with Spatial–Spectral Feature Optimization </h3>
 </p>
 
 
