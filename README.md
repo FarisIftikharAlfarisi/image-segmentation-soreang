@@ -1,8 +1,7 @@
 <p align="center">
-  <b>Satellite Image Segmentation Using Unsupervised Learning for Land Cover Analysis in Soreang with Spatial–Spectral Feature Optimization</b>  
+  #Satellite Image Segmentation Using Unsupervised Learning for Land Cover Analysis in Soreang with Spatial–Spectral Feature Optimization 
 </p>
 
----
 
 <p align="center">
   <i>Segmentasi Citra Satelit Menggunakan Metode Unsupervised Learning untuk Analisis Tutupan Lahan di Soreang dengan Optimasi Berbasis Fitur Spasial–Spektral</i>  
@@ -17,12 +16,11 @@
 <a href="mailto:faris.10122050@mahasiswa.unikom.ac.id "><img src="https://img.shields.io/badge/Email-faris.10122050@mahasiswa.unikom.ac.id-blue?logo=gmail" alt="Email"></a>
 </p>
 
----
+
 
 ## Objective
 This project aims to develop a satellite image segmentation system based on *unsupervised learning* to analyze land cover in the Soreang region. The approach focuses on identifying settlements, forests, and agricultural land by leveraging a combination of spatial and spectral features, ensuring effectiveness even with a limited dataset.
 
----
 
 ## Methodology Approach
 The study began with the collection of RGB satellite images from Google Earth for the years 2001 and 2024. The data underwent a *preprocessing* stage that included color intensity normalization (0–1) and conversion to grayscale to support texture and edge feature extraction. The segmentation process utilized the SLIC superpixel method, which divides the image into hundreds of homogeneous segments, allowing for more precise feature extraction.
@@ -36,23 +34,21 @@ Feature extraction covered five main categories:
 
 All extracted features were combined into high-dimensional vectors and clustered using the K-Means algorithm. Hyperparameter optimization was performed, with the best configuration achieved at k = 4 clusters, `k-means++` initialization, and the Lloyd algorithm. Evaluation using Silhouette Score (0.5219), Calinski-Harabasz Index (1054.65), and Davies-Bouldin Index (0.5480) indicated balanced segmentation performance in terms of compactness and separation.
 
----
 
 ## Results
 The segmentation results demonstrate the model's capability to effectively distinguish between settlement areas and vegetated regions. Forests and conservation areas were clearly identified, while settlements were separated from agricultural land. The main challenge was differentiating between active and post-harvest paddy fields, as both share similar spectral characteristics, often resulting in them being grouped within the same cluster.
 
----
 
-## 📌 Conclusion
+Conclusion
 The K-Means-based segmentation method, combined with color, texture, frequency, edge, and spatial position features, proved effective for label-free land cover mapping, especially with small datasets. The use of SLIC superpixels significantly enhanced segmentation boundary precision. In the future, this system could be extended with temporal data integration for seasonal change detection, automated calculation of land cover area, and the application of *deep clustering* techniques to improve adaptability to complex spatial patterns.
 
----
 
-## 📚 Keywords
+## Keywords
 `K-Means` `Image Segmentation` `Unsupervised Learning` `Land Cover` `Satellite Imagery` `SLIC Superpixel`
 
 ---
 
 <p align="center">
-  <i>This project was developed as part of the Supply Chain Management course, Bachelor of Informatics Engineering, Universitas Komputer Indonesia</i>
+  <i>This project was developed as part of the Research Methodology course, Bachelor of Informatics Engineering, Universitas Komputer Indonesia</i>
+   <i>Faris Iftikhar Alfarisi</i>
 </p>
